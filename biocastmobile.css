@@ -188,6 +188,16 @@ body, header, footer {
   color: #FFFDD0;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  border-radius: 36px;
+}
 
 .blog {
   max-width: 100%;
