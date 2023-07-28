@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
+@font-face {
+  font-family: Lato-Bold;
+  src: url(Lato-Bold.ttf);
+}
+
 html {
+  font-family: Lato-Bold;
   background-image: linear-gradient(to bottom, #023020, black);
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,7 +36,7 @@ body, header, footer {
   
 .homebutton img {
     display: block;
-    max-width: 30%;
+    max-width: 100%;
     margin: 0 auto;
   }
 
@@ -480,6 +486,7 @@ button[type="submit"]:hover {
 /* Style the hamburger menu */
 .topnav a.icon {
   display: block;
+  height: 100%;
   position: absolute;
   right: 0;
   top: 0;
