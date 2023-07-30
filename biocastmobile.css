@@ -7,7 +7,7 @@
 
 html {
   font-family: Lato-Bold;
-  background-image: linear-gradient(to bottom, #023020, black);
+  background-image: linear-gradient(to bottom, #4B9CD3, #9966CC);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -265,6 +265,17 @@ body, header, footer {
   display: flex;
   width: 100%;
   height: auto;
+}
+
+.quotes {
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: large;
+}
+
+.quotes p {
+  text-align: center;
 }
 
 .sign-off {
