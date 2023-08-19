@@ -451,22 +451,16 @@ button[type="submit"]:hover {
 }
 
 #Strand1 {
-  stroke-dasharray: 3066;
-  stroke-dashoffset: 3066;
   animation: sign 2s ease, fillAnimation 3s ease forwards;
   animation-fill-mode: forwards;
 }
 
 #Strand2, #Strand3 {
-  stroke-dasharray: 1290;
-  stroke-dashoffset: 1290;
   animation: sign 1s ease, fillAnimation 3s ease forwards;
   animation-fill-mode: forwards;
 }
 
 #text {
-  stroke-dasharray: 455;
-  stroke-dashoffset: 455;
   animation: sign 2s ease, fillAnimation 5s ease forwards;
   animation-fill-mode: forwards;
 }
