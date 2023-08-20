@@ -447,15 +447,18 @@ button[type="submit"]:hover {
 
 #Nucl1, #Nucl2, #Nucl3, #Nucl4 {
   animation: fadeIn 500ms ease forwards;
-
 }
 
 #Strand1 {
+  stroke-dasharray: 3067;
+  stroke-dashoffset: 3067;
   animation: sign 2s ease, fillAnimation 3s ease forwards;
   animation-fill-mode: forwards;
 }
 
 #Strand2, #Strand3 {
+  stroke-dasharray: 1290;
+  stroke-dashoffset: 1290;
   animation: sign 1s ease, fillAnimation 3s ease forwards;
   animation-fill-mode: forwards;
 }
@@ -483,7 +486,7 @@ button[type="submit"]:hover {
   color: #FFFDD0;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 24px;
   display: block;
 }
 
